@@ -1,2 +1,4 @@
 # Haskell-Hangman
-A Haskell application to play the game Hangman.
+In the game Hangman, one player secretly enters a word, and then another player tries to figure out what the word is by guessing what letters are in the word. If a player gets a guess wrong, a body part of a stick figure is drawn. If the player manages to guess the word before the full stick figure is drawn, then they win the game. Otherwise, if the player makes too many wrong guesses and they haven’t managed to guess the word, the full stick figure gets drawn, and they lose the game.
+
+In this project, I used Haskell to create a version of the Hangman game. One player will type in a word and then tries to figure out the word. For each guess, the program will show the player if the letter they guessed occurs in the secret word. If it doesn’t, the program will start displaying the hangman stick figure. The game ends if the player runs out of guesses or if they guess the word correctly.
